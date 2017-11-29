@@ -1,4 +1,4 @@
-package com.example.bcc.bccattendancetracker;
+package com.example.bcc.bccattendancetrackerandroid;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

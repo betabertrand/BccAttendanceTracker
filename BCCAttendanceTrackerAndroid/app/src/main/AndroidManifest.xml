@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bcc.bccattendancetracker">
+    package="com.example.bcc.bccattendancetrackerandroid">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PasswordEntryUI">
+        <activity android:name="com.example.bcc.bccattendancetrackerandroid.PasswordEntryUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DataEntryUI" />
-        <activity android:name=".EnterCountUI" />
-        <activity android:name=".ResolveConflictUI" />
-        <activity android:name=".HeadCountUI"></activity>
+        <activity android:name="com.example.bcc.bccattendancetrackerandroid.DataEntryUI" />
+        <activity android:name="com.example.bcc.bccattendancetrackerandroid.EnterCountUI" />
+        <activity android:name="com.example.bcc.bccattendancetrackerandroid.ResolveConflictUI" />
+        <activity android:name="com.example.bcc.bccattendancetrackerandroid.HeadCountUI"></activity>
     </application>
 
 </manifest>

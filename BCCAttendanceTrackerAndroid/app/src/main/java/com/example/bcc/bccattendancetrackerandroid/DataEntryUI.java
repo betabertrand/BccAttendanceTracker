@@ -1,4 +1,4 @@
-package com.example.bcc.bccattendancetracker;
+package com.example.bcc.bccattendancetrackerandroid;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -40,7 +40,7 @@ public class DataEntryUI extends AppCompatActivity {
     public void incrementCount(View view) {
         if(countTextBox.getText().toString().isEmpty()) {
             displayHeadCount(1);
-        } else if (Integer.parseInt(countTextBox.getText().toString()) >= 999) {
+        } else if (Integer.parseInt(countTextBox.getText().toString()) >= MAX_VALUE) {
             displayHeadCount(999);
         } else {
             displayHeadCount(Integer.parseInt(countTextBox.getText().toString()) + 1);

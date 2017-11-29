@@ -1,11 +1,10 @@
-package com.example.bcc.bccattendancetracker;
+package com.example.bcc.bccattendancetrackerandroid;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
