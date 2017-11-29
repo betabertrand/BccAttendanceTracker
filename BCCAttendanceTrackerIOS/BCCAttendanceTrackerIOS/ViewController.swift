@@ -16,17 +16,21 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var numCount: UILabel!
     @IBOutlet weak var countLabel: UILabel!
-    
     var numCountVariable = 0;
+    
     
     
     @IBAction func plusButton(_ sender: Any) {
         numCountVariable += 1;
         numCount.text = String(numCountVariable);
+        print(numCountVariable);
     }
     @IBAction func minusButton(_ sender: Any) {
-        numCountVariable -= 1;
+        if (numCountVariable > 0) {
+            numCountVariable -= 1;
+        }
         numCount.text = String(numCountVariable);
+        print(numCountVariable);
     }
     @IBAction func submitButton(_ sender: Any) {
     }
