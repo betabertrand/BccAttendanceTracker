@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CD423E31FC3633D000BBB50 /* BCCCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCCCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD423E31FC3633D000BBB50 /* BCCAttendanceTrackerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCCAttendanceTrackerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD423E61FC3633D000BBB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CD423E81FC3633D000BBB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CD423EB1FC3633D000BBB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,9 +77,9 @@
 		2CD423DA1FC3633D000BBB50 = {
 			isa = PBXGroup;
 			children = (
-				2CD423E51FC3633D000BBB50 /* BCCCounter */,
-				2CD423FA1FC3633D000BBB50 /* BCCCounterTests */,
-				2CD424051FC3633D000BBB50 /* BCCCounterUITests */,
+				2CD423E51FC3633D000BBB50 /* BCCAttendanceTracker */,
+				2CD423FA1FC3633D000BBB50 /* BCCAttendanceTrackerTests */,
+				2CD424051FC3633D000BBB50 /* BCCAttendanceTrackerUITests */,
 				2CD423E41FC3633D000BBB50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,14 +87,14 @@
 		2CD423E41FC3633D000BBB50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CD423E31FC3633D000BBB50 /* BCCCounter.app */,
+				2CD423E31FC3633D000BBB50 /* BCCAttendanceTrackerIOS.app */,
 				2CD423F71FC3633D000BBB50 /* BCCCounterTests.xctest */,
 				2CD424021FC3633D000BBB50 /* BCCCounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CD423E51FC3633D000BBB50 /* BCCCounter */ = {
+		2CD423E51FC3633D000BBB50 /* BCCAttendanceTracker */ = {
 			isa = PBXGroup;
 			children = (
 				2CD423E61FC3633D000BBB50 /* AppDelegate.swift */,
@@ -104,33 +104,33 @@
 				2CD423EF1FC3633D000BBB50 /* LaunchScreen.storyboard */,
 				2CD423F21FC3633D000BBB50 /* Info.plist */,
 			);
-			path = BCCCounter;
+			path = BCCAttendanceTracker;
 			sourceTree = "<group>";
 		};
-		2CD423FA1FC3633D000BBB50 /* BCCCounterTests */ = {
+		2CD423FA1FC3633D000BBB50 /* BCCAttendanceTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				2CD423FB1FC3633D000BBB50 /* BCCCounterTests.swift */,
 				2CD423FD1FC3633D000BBB50 /* Info.plist */,
 			);
-			path = BCCCounterTests;
+			path = BCCAttendanceTrackerTests;
 			sourceTree = "<group>";
 		};
-		2CD424051FC3633D000BBB50 /* BCCCounterUITests */ = {
+		2CD424051FC3633D000BBB50 /* BCCAttendanceTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2CD424061FC3633D000BBB50 /* BCCCounterUITests.swift */,
 				2CD424081FC3633D000BBB50 /* Info.plist */,
 			);
-			path = BCCCounterUITests;
+			path = BCCAttendanceTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CD423E21FC3633D000BBB50 /* BCCCounter */ = {
+		2CD423E21FC3633D000BBB50 /* BCCAttendanceTrackerIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CD4240B1FC3633D000BBB50 /* Build configuration list for PBXNativeTarget "BCCCounter" */;
+			buildConfigurationList = 2CD4240B1FC3633D000BBB50 /* Build configuration list for PBXNativeTarget "BCCAttendanceTrackerIOS" */;
 			buildPhases = (
 				2CD423DF1FC3633D000BBB50 /* Sources */,
 				2CD423E01FC3633D000BBB50 /* Frameworks */,
@@ -140,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = BCCCounter;
+			name = BCCAttendanceTrackerIOS;
 			productName = BCCCounter;
-			productReference = 2CD423E31FC3633D000BBB50 /* BCCCounter.app */;
+			productReference = 2CD423E31FC3633D000BBB50 /* BCCAttendanceTrackerIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2CD423F61FC3633D000BBB50 /* BCCCounterTests */ = {
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CD423DE1FC3633D000BBB50 /* Build configuration list for PBXProject "BCCCounter" */;
+			buildConfigurationList = 2CD423DE1FC3633D000BBB50 /* Build configuration list for PBXProject "BCCAttendanceTracker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CD423E21FC3633D000BBB50 /* BCCCounter */,
+				2CD423E21FC3633D000BBB50 /* BCCAttendanceTrackerIOS */,
 				2CD423F61FC3633D000BBB50 /* BCCCounterTests */,
 				2CD424011FC3633D000BBB50 /* BCCCounterUITests */,
 			);
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		2CD423F91FC3633D000BBB50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CD423E21FC3633D000BBB50 /* BCCCounter */;
+			target = 2CD423E21FC3633D000BBB50 /* BCCAttendanceTrackerIOS */;
 			targetProxy = 2CD423F81FC3633D000BBB50 /* PBXContainerItemProxy */;
 		};
 		2CD424041FC3633D000BBB50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CD423E21FC3633D000BBB50 /* BCCCounter */;
+			target = 2CD423E21FC3633D000BBB50 /* BCCAttendanceTrackerIOS */;
 			targetProxy = 2CD424031FC3633D000BBB50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,7 +430,7 @@
 				DEVELOPMENT_TEAM = WQYHQS4B7W;
 				INFOPLIST_FILE = BCCCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Bertrand.BCCCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = Bertrand.BCCAttendanceTrackerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +445,7 @@
 				DEVELOPMENT_TEAM = WQYHQS4B7W;
 				INFOPLIST_FILE = BCCCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Bertrand.BCCCounter;
+				PRODUCT_BUNDLE_IDENTIFIER = Bertrand.BCCAttendanceTrackerIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CD423DE1FC3633D000BBB50 /* Build configuration list for PBXProject "BCCCounter" */ = {
+		2CD423DE1FC3633D000BBB50 /* Build configuration list for PBXProject "BCCAttendanceTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CD424091FC3633D000BBB50 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CD4240B1FC3633D000BBB50 /* Build configuration list for PBXNativeTarget "BCCCounter" */ = {
+		2CD4240B1FC3633D000BBB50 /* Build configuration list for PBXNativeTarget "BCCAttendanceTrackerIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CD4240C1FC3633D000BBB50 /* Debug */,
